@@ -32,5 +32,7 @@ void swap_listint(listint_t *a, listint_t *b);
 listint_t *tail_traverse(listint_t *head, listint_t *tail, listint_t *list);
 int max_value(int *array, size_t size);
 void counting_sort(int *array, size_t size);
+void merge_sort_recursion(int *array, size_t left, size_t right, int *tmp);
+void merge_sort(int *array, size_t size);
 #endif
 
