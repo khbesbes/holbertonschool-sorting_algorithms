@@ -33,7 +33,8 @@ listint_t *tail_traverse(listint_t *head, listint_t *tail, listint_t *list);
 int max_value(int *array, size_t size);
 void counting_sort(int *array, size_t size);
 void merge_sort_recursion(int *array, size_t left, size_t right, int *tmp);
-void merge_sort(int *array, size_t size);
 void merge_sorted_a(int *array, size_t low, size_t mid, size_t high, int *tmp);
+void merge_sort(int *array, size_t size);
+
 #endif
 
