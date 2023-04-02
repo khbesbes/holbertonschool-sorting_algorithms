@@ -30,5 +30,6 @@ void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_listint(listint_t *a, listint_t *b);
 listint_t *tail_traverse(listint_t *head, listint_t *tail, listint_t *list);
+int max_value(int *array, size_t size);
 #endif
 
